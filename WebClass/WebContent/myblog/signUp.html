@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>내 블로그</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+	integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+	crossorigin="anonymous">
+
+<script>
+       function menu_over(e) {
+          e.setAttribute("class", "nav-item active");
+          // <li class="nav-item active>"         
+          
+       }
+       function menu_out(e) {
+          e.setAttribute("class", "nav-item");
+          // <li class="nav-item active>"         
+       }
+    </script>
+
+<style>
+div.container {
+	padding-top: 30px
+}
+</style>
+</head>
+
+<body>
+	<!-- 메뉴바 -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="myblog.html">블로그</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+	</nav>
+
+	<div class="container">
+		<form id="registForm">
+			<h1>회원 가입</h1>
+			<br>
+			<h5>학년</h5>
+			<input type="radio" name="grade" value="1" required> 1학년 / <input
+				type="radio" name="grade" value="1"> 2학년 / <input
+				type="radio" name="grade" value="1"> 3학년 <br>
+			<br>
+			<h5>반</h5>
+			<select name="list">
+				<option value="1">1반</option>
+				<option value="2">2반</option>
+				<option value="3">3반</option>
+				<option value="4">4반</option>
+				<option value="5">5반</option>
+				<option value="6">6반</option>
+			</select><br>
+			<br>
+			<h5>번호</h5>
+			<input type="text" name="numb" id="numb" required autofocus><br>
+			<br>
+			<h5>이름</h5>
+			<input type="text" name="name" id="name" required><br>
+			<br>
+			<button class="btn btn-outline-dark" type="submit">가입 하기</button>
+		</form>
+	</div>
+
+	<!-- Modal 창 -->
+	<div class="modal" id="myModal">
+		<div class="modal-dialog" role="myModal">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">가입 완료!</h5>
+					<button type="button" class="close" data-dismiss="modal"
+						aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p></p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-dismiss="modal" onclick="location.href='myblog.html';">닫기</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+	<script src="../js/myblog.js"></script>
+
+</body>
+</html>
