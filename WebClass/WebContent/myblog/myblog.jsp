@@ -17,14 +17,9 @@
 	crossorigin="anonymous">
 
 <!-- MY CSS -->
-<link rel="stylesheet" type="text/css" href="../css/myblog.css">
-
-
+<link rel="stylesheet" type="text/css" href="/WebClass/css/myblog.css">
 </head>
 <body>
-
-
-
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">블로그</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,176 +67,176 @@
   </div>
 </nav>
 
-	<!-- 대문 -->
-	<img src="../image/door.jpg">
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<!-- 프로필 -->
-	<div id="profile">
-		<h3>프로필</h3>
-		<pre>
-  이름 : 권순빈
-  생일 : 2000.11.02
-  키 :172cm
-  몸무게 : 54kg
-  </pre>
-	</div>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<a href="#" class="up">위로</a>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<!-- 취미 -->
-	<div id="hobby">
-		<h3>취미</h3>
-		<p>영화 감상</p>
-		<img src="../image/movie.jpg">
-		<p>게임</p>
-		<img src="../image/game.jpg">
-	</div>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<a href="#" class="up">위로</a>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
+<!-- 대문 -->
+<img src="/WebClass/image/door.jpg">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- 프로필 -->
+<div id="profile">
+	<h3>프로필</h3>
+	<pre>
+ 이름 : 권순빈
+ 생일 : 2000.11.02
+ 키 :172cm
+ 몸무게 : 54kg
+ </pre>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a href="#" class="up">위로</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- 취미 -->
+<div id="hobby">
+	<h3>취미</h3>
+	<p>영화 감상</p>
+	<img src="/WebClass/image/movie.jpg">
+	<p>게임</p>
+	<img src="/WebClass/image/game.jpg">
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a href="#" class="up">위로</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-	<!-- 장래희망 -->
-	<div id="vision">
-		<h3>장래희망</h3>
-		<p>여객기 파일럿</p>
-		<img src="../image/pilot.jpg">
-	</div>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<a href="#" class="up">위로</a>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
+<!-- 장래희망 -->
+<div id="vision">
+	<h3>장래희망</h3>
+	<p>여객기 파일럿</p>
+	<img src="/WebClass/image/pilot.jpg">
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a href="#" class="up">위로</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
